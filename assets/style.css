@@ -1,0 +1,13 @@
+*{
+    background-color: antiquewhite;
+}
+header{
+    background-color: yellow;
+    border: 10px solid steelblue;
+    color: steelblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
