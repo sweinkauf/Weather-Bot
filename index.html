@@ -10,13 +10,30 @@
 <body>
     <header>⛈Weather Bot🤖</header>
     <main>
-        <form>
-            <input type="text" placeholder="Insert City">
-            <button class="btn"> commute weather </button>
+        <form id="searchform">
+            <input id="searchbar" type="text" placeholder="Insert City">
+            <button id="searchbutton" class="btn"> commute weather </button>
             <div class="recent"> Recent Locations </div>
         </form>
-        <div id="search-container">Current Weather</div>
-        <div id="weather-container">5 Day Forecast</div>
+        <h2>Current Weather</h2>
+        <div id="search-container">
+            <div id="cweather">
+                <div id="city-weather"> 
+                    <h1 id="city-name"></h1>
+                    <p id="city-temp"></p>
+                    <p id="city-wind"></p>
+                    <p id="city-humidity"></p>
+                </div>
+                <div id="city-weather-image">
+                    
+                </div>
+            </div>
+        </div>
+        <h2>5 Day Forecast</h2>
+        <div id="weather-container">
+
+
+        </div>
     </main>
     <script src="./assets/script.js"></script>
 </body>
